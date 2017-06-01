@@ -12,7 +12,7 @@ Creating a CA:
 
 ```
    docker run -it --rm -v /mycertsdir:/pki gcavalcante8808/easy-rsa init-pki
-   docker run -it --rm -v /home/zabbix/certs:/pki gcavalcante8808/easy-rsa build-ca
+   docker run -it --rm -v /mycertsdir:/pki gcavalcante8808/easy-rsa build-ca
 ```
 
 As the container doesn't a continuous command, you just need to initialize it to use the ad-hoc params needed by easyrca.
